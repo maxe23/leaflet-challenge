@@ -90,3 +90,10 @@ function mapColor(i) {
     layers: [satellitemap, earthquakes]
   });
 
+   // Create a layer control
+  // Pass in our baseMaps and overlayMaps
+  // Add the layer control to the map
+  L.control.layers(baseMaps, overlayMaps, {
+    collapsed: false
+  }).addTo(myMap);
+
