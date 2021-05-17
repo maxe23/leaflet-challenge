@@ -75,3 +75,8 @@ function mapColor(i) {
         "Dark Map": darkmap,
         "Light Map": lightmap
       };
+
+       // Create overlay object to hold our overlay layer
+  var overlayMaps = {
+    Earthquakes: earthquakes
+  };
