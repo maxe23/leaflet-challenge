@@ -68,3 +68,10 @@ function mapColor(i) {
     id: "light-v10",
     accessToken: API_KEY
   });
+
+    // Define a baseMaps object to hold our base layers
+    var baseMaps = {
+        "Satellite Map": satellitemap,
+        "Dark Map": darkmap,
+        "Light Map": lightmap
+      };
