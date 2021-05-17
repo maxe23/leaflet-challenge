@@ -80,3 +80,13 @@ function mapColor(i) {
   var overlayMaps = {
     Earthquakes: earthquakes
   };
+
+   // Create our map, giving it the streetmap and earthquakes layers to display on load
+   var myMap = L.map("mapid", {
+    center: [
+      37.09, -95.71
+    ],
+    zoom: 5,
+    layers: [satellitemap, earthquakes]
+  });
+
