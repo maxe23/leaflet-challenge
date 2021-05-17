@@ -43,3 +43,5 @@ function mapColor(i) {
       i > 10   ?  "#D4EE00" :
               "#98EE00";
     }
+
+    function createMap(earthquakes) {
