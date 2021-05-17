@@ -35,3 +35,11 @@ function createFeatures(earthquakeData) {
 // Sending our earthquakes layer to the createMap function
 createMap(earthquakes);
 };
+function mapColor(i) {
+    return i > 90 ? "#EA2C2C" :
+      i > 70  ? "#EA822C" :
+      i > 50  ? "#EE9C00" :
+      i > 30  ? "#EECC00" :
+      i > 10   ?  "#D4EE00" :
+              "#98EE00";
+    }
