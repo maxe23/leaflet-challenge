@@ -30,3 +30,8 @@ function createFeatures(earthquakeData) {
         fillOpacity: 0.8
       })
     },
+    onEachFeature: onEachFeature
+});
+// Sending our earthquakes layer to the createMap function
+createMap(earthquakes);
+};
