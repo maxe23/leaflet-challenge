@@ -7,7 +7,7 @@ d3.json(queryUrl, function (data) {
   
     createFeatures(data.features);
     console.log(data.features)
-  });
+  //});
 
 function createFeatures(earthquakeData) {
 
@@ -113,3 +113,6 @@ function mapColor(i) {
     
     legend.addTo(myMap);
   };
+  console.log("hello")
+  createFeatures(data.features)
+});
